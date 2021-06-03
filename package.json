@@ -1,0 +1,21 @@
+{
+  "name": "obs-mux-livestream",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@mux/mux-node": "3.2.3",
+    "hls.js": "1.0.5",
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "swr": "0.5.6"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
